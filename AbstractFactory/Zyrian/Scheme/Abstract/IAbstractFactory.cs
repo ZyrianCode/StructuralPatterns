@@ -9,7 +9,7 @@ namespace AbstractFactory.Zyrian.Scheme.Abstract
 {
     public interface IAbstractFactory
     {
-        public abstract IAbstractProductA CreateProductA();
-        public abstract IAbstractProductB CreateProductB();
+        public IAbstractProductA CreateProductA();
+        public IAbstractProductB CreateProductB();
     }
 }

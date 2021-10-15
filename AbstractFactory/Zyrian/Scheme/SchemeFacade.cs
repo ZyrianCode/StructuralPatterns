@@ -12,7 +12,9 @@ namespace AbstractFactory.Zyrian.Scheme
     {
         
         private static readonly IAbstractFactory AbstractFactory = new ConcreteFactory1();
+
         private readonly Client _client = new();
+
         public void Start()
         {
             ConnectClientToFactory(AbstractFactory);
@@ -20,6 +22,7 @@ namespace AbstractFactory.Zyrian.Scheme
         }
 
         private void ConnectClientToFactory(IAbstractFactory abstractFactory) => _client.Run(abstractFactory);
+
         private void Print() => _client.Print();
     }
 }

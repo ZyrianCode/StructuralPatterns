@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralPatterns", "StructuralPatterns\StructuralPatterns.csproj", "{DBE65359-9990-4840-97EA-CAB9D39D5A77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralPatterns", "StructuralPatterns\StructuralPatterns.csproj", "{DBE65359-9990-4840-97EA-CAB9D39D5A77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{D40F4781-2506-42A1-99CE-D3BA4945BB7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{D40F4781-2506-42A1-99CE-D3BA4945BB7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Types", "Data.Types\Data.Types.csproj", "{360371FA-669F-4A35-860C-DA53CDE1C0B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D40F4781-2506-42A1-99CE-D3BA4945BB7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D40F4781-2506-42A1-99CE-D3BA4945BB7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D40F4781-2506-42A1-99CE-D3BA4945BB7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{360371FA-669F-4A35-860C-DA53CDE1C0B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360371FA-669F-4A35-860C-DA53CDE1C0B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360371FA-669F-4A35-860C-DA53CDE1C0B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360371FA-669F-4A35-860C-DA53CDE1C0B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
