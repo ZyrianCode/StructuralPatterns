@@ -10,14 +10,12 @@ namespace AbstractFactory.Zyrian.Scheme
 {
     public class SchemeFacade
     {
-        
-        private static readonly IAbstractFactory AbstractFactory = new ConcreteFactory1();
-
         private readonly Client _client = new();
 
         public void Start()
         {
-            ConnectClientToFactory(AbstractFactory);
+            IAbstractFactory abstractFactory = new ConcreteFactory1();
+            ConnectClientToFactory(abstractFactory);
             Print();
         }
 
