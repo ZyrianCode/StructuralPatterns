@@ -23,13 +23,12 @@ namespace AbstractFactory.Zyrian.Scheme
             _abstractProductB = abstractFactory.CreateProductB();
         }
 
-        public void Print()
+        public void Print(IDataPrinter dataPrinter, IPrintMethod printFormat)
         {
-            IDataPrinter dataPrinter = new DataPrinter();
             FillObjectsList();
 
             dataPrinter.SetObjectToPrint(_objects);
-            dataPrinter.SetPrintMethod(new ConsolePrintMethod());
+            dataPrinter.SetPrintMethod(printFormat);
             dataPrinter.PrintData();
         }
 
